@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int main(){
-    float sal, da, hra, gross;
+    float sal, da, hra, gross;             /* Defining varibles */
     printf("Enter Your salary: ");
-    scanf("%f", &sal);
+    scanf("%f", &sal);                     /* Getting User input and Assigning it to the "sal" variable */
     if (sal < 25000)
     {
-        hra = sal * 0.2;
+        hra = sal * 0.2;                    
         da = sal * 0.8;
     }
     else if (sal >= 25000)
